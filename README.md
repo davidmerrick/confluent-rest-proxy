@@ -1,10 +1,6 @@
 Demo of Dockerized Confluent REST proxy
 
-# Reference
-
-[Confluent tutorial](https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/rest-proxy.html)
-
-Usage:
+# Usage:
 
 Create a `.env` file and configure your bootstrap servers:
 ```shell
@@ -20,3 +16,7 @@ Test that it's running by making a GET to
 ```shell
  http://localhost:8082/topics
 ```
+
+# Reference
+
+[Confluent tutorial](https://docs.confluent.io/platform/current/tutorials/examples/clients/docs/rest-proxy.html)
